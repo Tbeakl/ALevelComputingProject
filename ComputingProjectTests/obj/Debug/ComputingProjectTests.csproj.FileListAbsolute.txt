@@ -1,0 +1,50 @@
+H:\Computing Project\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.dll
+H:\Computing Project\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.pdb
+H:\Computing Project\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe
+H:\Computing Project\ComputingProject\ComputingProjectTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+H:\Computing Project\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.pdb
+H:\Computing Project\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.dll
+H:\Computing Project\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.pdb
+H:\Computing Project\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe.config
+H:\Computing Project\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csprojAssemblyReference.cache
+H:\Computing Project\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csproj.CoreCompileInputs.cache
+H:\Computing Project\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csproj.CopyComplete
+H:\Computing Project\ComputingProject\ComputingProjectTests\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csprojAssemblyReference.cache
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.pdb
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.pdb
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.pdb
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe.config
+E:\Documents\ComputingSchool\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csproj.CopyComplete
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.pdb
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\Xceed.Wpf.Toolkit.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.pdb
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe.config
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csprojAssemblyReference.cache
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csproj.CoreCompileInputs.cache
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csproj.CopyComplete
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.pdb
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csprojAssemblyReference.cache
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.pdb
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csprojAssemblyReference.cache
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csproj.CoreCompileInputs.cache
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.pdb
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProjectTests.pdb
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.pdb
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\bin\Debug\ComputingProject.exe.config
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProjectTests\obj\Debug\ComputingProjectTests.csproj.CopyComplete

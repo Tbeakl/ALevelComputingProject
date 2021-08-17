@@ -1,0 +1,157 @@
+﻿<Window x:Class="ComputingProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:ComputingProject"
+        mc:Ignorable="d"
+        Title="ImageEditingTeachingTool" Height="800" Width="1000" ResizeMode="NoResize">
+    <Grid x:Name="ImageBorder">
+        <TextBlock x:Name="Title" Height="50" Margin="246,10,246,0" TextWrapping="Wrap" Text="Image Editing Teaching Tool" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" TextAlignment="Center"/>
+        <Canvas x:Name="PictureCanvas" Margin="30,119,0,0" HorizontalAlignment="Left" Width="600" Height="600" VerticalAlignment="Top">
+            <Image x:Name="ImageDisplay" SnapsToDevicePixels="True" RenderOptions.BitmapScalingMode="NearestNeighbor" Panel.ZIndex="-10" Stretch="Uniform" HorizontalAlignment="Stretch" Width="600" Height="600" VerticalAlignment="Stretch"/>
+        </Canvas>
+
+        <TabControl Margin="0,119,10,0" HorizontalAlignment="Right" Width="327" Height="550" VerticalAlignment="Top">
+            <TabItem Header="Blurring" LostFocus="TabItem_LostFocus" GotFocus="TabItem_GotFocus">
+                <Grid Background="#FFE5E5E5" Height="522" VerticalAlignment="Bottom">
+                    <Label x:Name="Blurring_Label_Method" Content="Method:" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+                    <ComboBox x:Name="Blurring_Method_ComboBox" HorizontalAlignment="Left" Height="30" Margin="125,10,0,0" VerticalAlignment="Top" Width="175" IsReadOnly="True" SelectionChanged="Blurring_Method_ComboBox_SelectionChanged">
+                        <ListBoxItem Content="Mean Blur"/>
+                        <ListBoxItem Content="Gaussian Blur"/>
+                        <ListBoxItem Content="Bokeh Blur"/>
+                        <ListBoxItem Content="Custom Kernel"/>
+                    </ComboBox>
+                    <Label x:Name="Blurring_InputFile_Label" Content="Input File:" HorizontalAlignment="Left" Height="30" Margin="10,45,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Blurring_InputFileName_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,45,0,0" TextWrapping="Wrap" Text="Example.png" VerticalAlignment="Top" Width="126" RenderTransformOrigin="0.5,0.5" IsReadOnly="True"/>
+                    <Button x:Name="Blurring_InputFile_Button" Content="Select" HorizontalAlignment="Left" Height="30" Margin="256,45,0,0" VerticalAlignment="Top" Width="44" Click="Blurring_InputFile_Button_Click"/>
+                    <Label x:Name="Blurring_Power_Label" Content="Power:" HorizontalAlignment="Left" Height="30" Margin="10,80,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Blurring_Power_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,80,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="175"/>
+                    <Label x:Name="Blurring_Radius_Label" Content="Radius/Std. Dev:" HorizontalAlignment="Left" Height="30" Margin="10,115,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+                    <TextBox x:Name="Blurring_Radius_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,115,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="175" IsEnabled="False"/>
+                    <Label x:Name="Blurring_InputKernel_Label" Content="Input Kernel:" HorizontalAlignment="Left" Height="30" Margin="10,150,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+                    <TextBox x:Name="Blurring_InputKernel_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,150,0,0" TextWrapping="Wrap" Text="Example.png" VerticalAlignment="Top" Width="126" RenderTransformOrigin="0.5,0.5" IsReadOnly="True" IsEnabled="False"/>
+                    <Button x:Name="Blurring_InputKernel_Button" Content="Select" HorizontalAlignment="Left" Height="30" Margin="256,150,0,0" VerticalAlignment="Top" Width="44" Click="Blurring_InputKernel_Button_Click" IsEnabled="False"/>
+                    <Label x:Name="Blurring_WholeImageTick_Label" Content="Whole Image:" HorizontalAlignment="Left" Height="30" Margin="10,185,0,0" VerticalAlignment="Top" Width="100"/>
+                    <RadioButton x:Name="Blurring_WholeImage_RadioButton" Content="" HorizontalAlignment="Left" Height="21" Margin="125,193,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.95,0.571" IsChecked="True" Checked="Blurring_WholeImage_RadioButton_Checked">
+                        <RadioButton.BindingGroup>
+                            <BindingGroup/>
+                        </RadioButton.BindingGroup>
+                    </RadioButton>
+                    <Label x:Name="Blurring_PartOfImageTick_Label" Content="Area in Image:" HorizontalAlignment="Left" Height="30" Margin="10,220,0,0" VerticalAlignment="Top" Width="100"/>
+                    <RadioButton x:Name="Blurring_PartOfImage_RadioButton" Content="" HorizontalAlignment="Left" Height="21" Margin="125,229,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.95,0.571" Checked="Blurring_PartOfImage_RadioButton_Checked">
+                        <RadioButton.BindingGroup>
+                            <BindingGroup/>
+                        </RadioButton.BindingGroup>
+                    </RadioButton>
+                    <Label x:Name="Blurring_IsEllipse_Label" Content="Ellipse:" HorizontalAlignment="Left" Height="30" Margin="10,255,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}"/>
+                    <CheckBox x:Name="Blurring_IsEllipse_Checkbox" Content="" HorizontalAlignment="Left" Height="17" Margin="125,261,0,0" VerticalAlignment="Top" Width="17" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_IsEllipse_Checkbox_Click"/>
+                    <Label x:Name="Blurring_MoveHorizontal_Label" Content="Horizontal:" HorizontalAlignment="Left" Height="30" Margin="10,290,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}"/>
+                    <Button x:Name="Blurring_MoveLeft_Button" Content="⮘" HorizontalAlignment="Left" Height="30" Margin="125,290,0,0" VerticalAlignment="Top" Width="75" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_MoveLeft_Button_Click"/>
+                    <Button x:Name="Blurring_MoveRight_Button" Content="⮚" HorizontalAlignment="Left" Height="30" Margin="225,290,0,0" VerticalAlignment="Top" Width="75" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_MoveRight_Button_Click"/>
+                    <Label x:Name="Blurring_MoveVertical_Label" Content="Vertical:" HorizontalAlignment="Left" Height="30" Margin="10,325,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}"/>
+                    <Button x:Name="Blurring_MoveUp_Button" Content="⮙" HorizontalAlignment="Left" Height="30" Margin="125,325,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_MoveUp_Button_Click"/>
+                    <Button x:Name="Blurring_MoveDown_Button" Content="⮛" HorizontalAlignment="Left" Height="30" Margin="225,325,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_MoveDown_Button_Click"/>
+                    <Label x:Name="Blurring_ScaleHorizontal_Label" Content="Width:" HorizontalAlignment="Left" Height="30" Margin="10,360,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}"/>
+                    <Button x:Name="Blurring_WidthDown_Button" Content="⮘" HorizontalAlignment="Left" Height="30" Margin="125,360,0,0" VerticalAlignment="Top" Width="75" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_WidthDown_Button_Click"/>
+                    <Button x:Name="Blurring_WidthUp_Button" Content="⮚" HorizontalAlignment="Left" Height="30" Margin="225,360,0,0" VerticalAlignment="Top" Width="75" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_WidthUp_Button_Click"/>
+                    <Label x:Name="Blurring_ScaleVertical_Label" Content="Height:" HorizontalAlignment="Left" Height="30" Margin="10,395,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}"/>
+                    <Button x:Name="Blurring_HeightDown_Button" Content="⮛" HorizontalAlignment="Left" Height="30" Margin="125,395,0,0" VerticalAlignment="Top" Width="75" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_HeightDown_Button_Click"/>
+                    <Button x:Name="Blurring_HeightUp_Button" Content="⮙" HorizontalAlignment="Left" Height="30" Margin="225,395,0,0" VerticalAlignment="Top" Width="75" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}" Click="Blurring_HeightUp_Button_Click"/>
+                    <Button x:Name="Blurring_StartBlurring" Content="Blur" HorizontalAlignment="Left" Height="30" Margin="10,430,0,0" VerticalAlignment="Top" Width="290" Click="Blurring_StartBlurring_Click"/>
+                    <Button x:Name="Blurring_ShowOrginal_Button" Content="Show Original" HorizontalAlignment="Left" Height="30" Margin="10,465,0,0" VerticalAlignment="Top" Width="135" Click="Blurring_ShowOrginal_Button_Click"/>
+                    <Button x:Name="Blurring_ShowNew_Button" Content="Show Blurred" HorizontalAlignment="Left" Height="30" Margin="165,465,0,0" VerticalAlignment="Top" Width="135" Click="Blurring_ShowNew_Button_Click"/>
+                    <Label x:Name="Blurring_IsInverted_Label" Content="Inverted:" HorizontalAlignment="Left" Height="30" Margin="168,255,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}"/>
+                    <CheckBox x:Name="Blurring_IsInverted_Checkbox" Content="" HorizontalAlignment="Left" Height="17" Margin="283,261,0,0" VerticalAlignment="Top" Width="17" IsEnabled="{Binding IsChecked, ElementName=Blurring_PartOfImage_RadioButton}"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Enlarging">
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="Englarging_Label_Method" Content="Method:" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+                    <ComboBox x:Name="Englarging_Method_ComboBox" HorizontalAlignment="Left" Height="30" Margin="125,10,0,0" VerticalAlignment="Top" Width="175" IsReadOnly="True" SelectionChanged="Englarging_Method_ComboBox_SelectionChanged">
+                        <ListBoxItem Content="Nearest Neighbour Round Down"/>
+                        <ListBoxItem Content="Nearest Neighbour Round Up and Down"/>
+                        <ListBoxItem Content="BiLinear"/>
+                        <ListBoxItem Content="BiCubic"/>
+                    </ComboBox>
+                    <Label x:Name="Enlarging_InputFile_Label" Content="Input File:" HorizontalAlignment="Left" Height="30" Margin="10,45,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Enlarging_InputFileName_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,45,0,0" TextWrapping="Wrap" Text="Example.png" VerticalAlignment="Top" Width="126" RenderTransformOrigin="0.5,0.5" IsReadOnly="True">
+                    </TextBox>
+                    <Label x:Name="Enlarging_InputFileWidth_Label" Content="Input Width:" HorizontalAlignment="Left" Height="30" Margin="10,80,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Button x:Name="Enlargring_InputFile_Button" Content="Select" HorizontalAlignment="Left" Height="30" Margin="256,45,0,0" VerticalAlignment="Top" Width="44" Click="Enlargring_InputFile_Button_Click"/>
+                    <TextBox x:Name="Enlarging_InputFileWidth_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,80,0,0" TextWrapping="Wrap" Text="File Width" VerticalAlignment="Top" Width="175" IsReadOnly="True" Background="Gainsboro" Foreground="#FF404040"/>
+                    <Label x:Name="Enlarging_InputFileHeight_Label" Content="Input Height:" HorizontalAlignment="Left" Height="30" Margin="10,115,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Enlarging_InputFileHeight_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,115,0,0" TextWrapping="Wrap" Text="File Height" VerticalAlignment="Top" Width="175" IsReadOnly="True" Background="Gainsboro" Foreground="#FF404040"/>
+                    <Label x:Name="Enlarging_ScaleFactorTick_Label" Content="By Scale Factor:" HorizontalAlignment="Left" Height="30" Margin="10,150,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Label x:Name="Enlarging_ScaleFactor_Label" Content="Scale Factor:" HorizontalAlignment="Left" Height="30" Margin="10,185,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Enlarging_ScaleFactor_RadioButton}"/>
+                    <TextBox x:Name="Enlarging_ScaleFactor_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,185,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="175" IsEnabled="{Binding IsChecked, ElementName=Enlarging_ScaleFactor_RadioButton}"/>
+                    <Label x:Name="Enlarging_WidthHeight_Label" Content="By Width/Height:" HorizontalAlignment="Left" Height="30" Margin="10,220,0,0" VerticalAlignment="Top" Width="100"/>
+                    <RadioButton x:Name="Enlarging_ScaleFactor_RadioButton" Content="" HorizontalAlignment="Left" Height="21" Margin="125,159,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.95,0.571" IsChecked="True">
+                        <RadioButton.BindingGroup>
+                            <BindingGroup/>
+                        </RadioButton.BindingGroup>
+                    </RadioButton>
+                    <RadioButton x:Name="Enlarging_WidthHeight_RadioButton" Content="" HorizontalAlignment="Left" Height="22" Margin="125,228,0,0" VerticalAlignment="Top" Width="19" RenderTransformOrigin="0.316,0.364">
+                        <RadioButton.BindingGroup>
+                            <BindingGroup/>
+                        </RadioButton.BindingGroup>
+                    </RadioButton>
+                    <Label x:Name="Enlarging_OutputFileWidth_Label" Content="Output Width:" HorizontalAlignment="Left" Height="30" Margin="10,255,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Enlarging_WidthHeight_RadioButton}"/>
+                    <TextBox x:Name="Enlarging_OutputFileWidth_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,255,0,0" TextWrapping="Wrap" Text="File Width" VerticalAlignment="Top" Width="175" IsEnabled="{Binding IsChecked, ElementName=Enlarging_WidthHeight_RadioButton}"/>
+                    <Label x:Name="Enlarging_OutputFileHeight_Label" Content="Output Height:" HorizontalAlignment="Left" Height="30" Margin="10,290,0,0" VerticalAlignment="Top" Width="100" IsEnabled="{Binding IsChecked, ElementName=Enlarging_WidthHeight_RadioButton}"/>
+                    <TextBox x:Name="Enlarging_OutputFileHeight_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,290,0,0" TextWrapping="Wrap" Text="File Height" VerticalAlignment="Top" Width="175" IsEnabled="{Binding IsChecked, ElementName=Enlarging_WidthHeight_RadioButton}"/>
+                    <Button x:Name="Enlarging_StartEnglarging" Content="Enlarge" HorizontalAlignment="Left" Height="30" Margin="10,325,0,0" VerticalAlignment="Top" Width="290" Click="Enlarging_StartEnglarging_Click"/>
+                    <Button x:Name="Enlarging_ShowOrginal_Button" Content="Show Original" HorizontalAlignment="Left" Height="30" Margin="10,360,0,0" VerticalAlignment="Top" Width="135" Click="Enlarging_ShowOrginal_Button_Click"/>
+                    <Button x:Name="Enlarging_ShowNew_Button" Content="Show Enlarged" HorizontalAlignment="Left" Height="30" Margin="165,360,0,0" VerticalAlignment="Top" Width="135" Click="Enlarging_ShowNew_Button_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Voronoi Generation">
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="Voronoi_OutputFileWidth_Label" Content="Output Width:" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Voronoi_OutputFileWidth_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,10,0,0" TextWrapping="Wrap" Text="File Width" VerticalAlignment="Top" Width="175"/>
+                    <Label x:Name="Voronoi_OutputFileHeight_Label" Content="Output Height:" HorizontalAlignment="Left" Height="30" Margin="10,45,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Voronoi_OutputFileHeight_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,45,0,0" TextWrapping="Wrap" Text="File Height" VerticalAlignment="Top" Width="175"/>
+                    <Label x:Name="Voronoi_PointGenerator_Label" Content="Point Generator:" HorizontalAlignment="Left" Height="30" Margin="10,80,0,0" VerticalAlignment="Top" Width="100"/>
+                    <ComboBox x:Name="Voronoi_PointGenerator_Combobox" HorizontalAlignment="Left" Height="30" Margin="125,80,0,0" VerticalAlignment="Top" Width="175" SelectionChanged="Voronoi_PointGenerator_Combobox_SelectionChanged">
+                        <ListBoxItem Content="Random"/>
+                        <ListBoxItem Content="Uniform Generator"/>
+                        <ListBoxItem Content="Poisson Disc"/>
+                    </ComboBox>
+                    <Label x:Name="Voronoi_PointGenerator_Parameter1_Label" Content="Parameter 1:" HorizontalAlignment="Left" Height="30" Margin="10,115,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+                    <TextBox x:Name="Voronoi_PointGenerator_Parameter1_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,115,0,0" TextWrapping="Wrap" Text="Parameter 1" VerticalAlignment="Top" Width="175" IsEnabled="False"/>
+                    <Label x:Name="Voronoi_PointGenerator_Parameter2_Label" Content="Parameter 2:" HorizontalAlignment="Left" Height="30" Margin="10,150,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+                    <TextBox x:Name="Voronoi_PointGenerator_Parameter2_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,150,0,0" TextWrapping="Wrap" Text="Parameter 2" VerticalAlignment="Top" Width="175" IsEnabled="False"/>
+                    <Button x:Name="Voronoi_PointGenerator_Button" Content="Generate Points" HorizontalAlignment="Left" Height="30" Margin="10,185,0,0" VerticalAlignment="Top" Width="290" Click="Voronoi_PointGenerator_Button_Click" IsEnabled="False"/>
+                    <Label x:Name="Voronoi_RegionGenerator_pValue" Content="Dist. Power:" HorizontalAlignment="Left" Height="34" Margin="10,220,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Slider x:Name="Voronoi_PValue_Slider" HorizontalAlignment="Left" Height="30" Margin="125,220,0,0" VerticalAlignment="Top" Width="175" Maximum="2" Minimum="1" SmallChange="0.01" RenderTransformOrigin="0.5,0.5" Value="1" LargeChange="0.01">
+                        <Slider.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="5"/>
+                            </TransformGroup>
+                        </Slider.RenderTransform>
+                    </Slider>
+                    <Label Content="1" HorizontalAlignment="Left" Height="25" Margin="122,236,0,0" VerticalAlignment="Top" Width="17"/>
+                    <Label Content="2" HorizontalAlignment="Left" Height="25" Margin="286,236,0,0" VerticalAlignment="Top" Width="17"/>
+                    <Label x:Name="Voronoi_BorderWidth_Label" Content="Border Width:" HorizontalAlignment="Left" Height="30" Margin="10,259,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Voronoi_BorderWidth_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,259,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="175"/>
+                    <Button x:Name="Voronoi_ColourChanging_Button" Content="Colour Controls" HorizontalAlignment="Left" Height="30" Margin="10,294,0,0" VerticalAlignment="Top" Width="290" Click="Voronoi_ColourChanging_Button_Click"/>
+                    <Button x:Name="Voronoi_GenerateRegions_Button" Content="Generate Regions" HorizontalAlignment="Left" Height="30" Margin="10,399,0,0" VerticalAlignment="Top" Width="290" Click="Voronoi_GenerateRegions_Button_Click"/>
+                    <Button x:Name="Voronoi_DisplayOutput_Button" Content="Update Display" HorizontalAlignment="Left" Height="30" Margin="10,447,0,0" VerticalAlignment="Top" Width="290" Click="Voronoi_DisplayOutput_Button_Click"/>
+                    <Button x:Name="Voronoi_SaveOutput_Button" Content="Save Image" HorizontalAlignment="Left" Height="30" Margin="10,482,0,0" VerticalAlignment="Top" Width="290" Click="Voronoi_SaveOutput_Button_Click"/>
+                    <Label x:Name="Voronoi_PointGenerator_Seed_Label" Content="Point Gen. Seed:" HorizontalAlignment="Left" Height="30" Margin="10,329,0,0" VerticalAlignment="Top" Width="110" IsEnabled="False"/>
+                    <TextBox x:Name="Voronoi_PointGenerator_Seed_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" IsEnabled="False"/>
+                    <Label x:Name="Voronoi_Colour_Seed_Label" Content="Colour Gen. Seed:" HorizontalAlignment="Left" Height="30" Margin="10,364,0,0" VerticalAlignment="Top" Width="110" IsEnabled="False"/>
+                    <TextBox x:Name="Voronoi_Colour_Seed_Textbox" HorizontalAlignment="Left" Height="30" Margin="125,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" IsEnabled="False"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label x:Name="Output_Label" Content="Output Filename:" Margin="0,674,237,0" HorizontalAlignment="Right" Width="100" Height="45" VerticalAlignment="Top"/>
+        <TextBox x:Name="OutputFilenameTextBox" Margin="760,674,60,0" TextWrapping="Wrap" Text="Example.png" Height="45" VerticalAlignment="Top"/>
+        <Button x:Name="ImageEditingToolHelp_Button" Content="?" Margin="937,674,10,50" Click="ImageEditingToolHelp_Button_Click"/>
+
+    </Grid>
+</Window>

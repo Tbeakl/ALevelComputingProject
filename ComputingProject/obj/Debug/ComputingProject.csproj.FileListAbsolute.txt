@@ -1,0 +1,274 @@
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.Cache
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CoreCompileInputs.cache
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+H:\Computing Project\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.cache
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+E:\Documents\ComputingSchool\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.cache
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CoreCompileInputs.cache
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+\\bgs.local\userdata$\Student Data\13HomeFolders\13HBatchelor\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.cache
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CoreCompileInputs.cache
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+H:\Computing Project\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.cache
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+E:\Documents\ComputingSchool\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.cache
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CoreCompileInputs.cache
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+H:\Computing Project\2020-20200225T145853Z-001\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.cache
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+E:\Documents\ComputingSchool\ComputingProject12032020\ComputingProject24-02-2020\CompuitngProject13022020\ComputingProject-12012020\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe.config
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.exe
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ComputingProject.pdb
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csprojAssemblyReference.cache
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.g.cs
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.g.cs
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.g.cs
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\App.g.cs
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.cache
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject_MarkupCompile.lref
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ColourManipulation.baml
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\HelpWindow.baml
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\MainWindow.baml
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.g.resources
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.Properties.Resources.resources
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.GenerateResource.cache
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CoreCompileInputs.cache
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.csproj.CopyComplete
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.exe
+C:\Users\henry\Downloads\ComputingProject\ComputingProject\ComputingProject\obj\Debug\ComputingProject.pdb

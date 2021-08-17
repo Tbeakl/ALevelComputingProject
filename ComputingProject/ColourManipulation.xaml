@@ -1,0 +1,207 @@
+﻿<Window x:Name="ColourManipulationWindow" x:Class="ComputingProject.ColourManipulation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:ComputingProject"
+        mc:Ignorable="d"
+        Title="ColourManipulation" Height="450" Width="860">
+    <Grid Margin="0,0,-8,0">
+        <TextBlock x:Name="ColourManipulationTitle" Height="40" Margin="10,10,10,0" TextWrapping="Wrap" Text="Colour Manipulation" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" TextAlignment="Center"/>
+        <Label x:Name="ColourManipulationPoint_PointsDifferent_Label" Content="Colour Points Diff.:" HorizontalAlignment="Left" Height="25" Margin="10,85,0,0" VerticalAlignment="Top" Width="110"/>
+        <CheckBox x:Name="ColourManipulationPoint_PointsDifferent_Checkbox" Content="" HorizontalAlignment="Left" Height="17" Margin="125,93,0,0" VerticalAlignment="Top" Width="17" Click="ColourManipulationPoint_PointsDifferent_Checkbox_Click"/>
+        <Label x:Name="ColourManipulationPoint_FirstMethod_Label" Content="First Method:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="110" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}"/>
+        <ComboBox x:Name="ColourManipulationPoint_FirstMethod_Combobox" HorizontalAlignment="Left" Margin="125,115,0,0" VerticalAlignment="Top" Width="150" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}" SelectionChanged="ColourManipulationPoint_FirstMethod_Combobox_SelectionChanged">
+            <ListBoxItem Content="Order Placed"/>
+            <ListBoxItem Content="By X Coordinate"/>
+            <ListBoxItem Content="By Y Coordinate"/>
+            <ListBoxItem Content="Random on Gradient"/>
+            <ListBoxItem Content="Completely Random"/>
+            <ListBoxItem Content="Constant Colour"/>
+            <ListBoxItem Content="By Size"/>
+        </ComboBox>
+        <Label x:Name="ColourManipulationPoint_FirstColourMethod1_Label" Content="First Colour:" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="110" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}"/>
+        <xctk:ColorPicker x:Name="ColourManipulationPoint_Colour1PickerMethod1" Margin="125,0,0,249" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationPoint_Colour1PickerMethod1_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Label x:Name="ColourManipulationPoint_SecondColourMethod1_Label" Content="Second Colour:" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="110" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}"/>
+        <xctk:ColorPicker x:Name="ColourManipulationPoint_Colour2PickerMethod1" Margin="125,0,0,219" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationPoint_Colour2PickerMethod1_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Border x:Name="ColourManipulation_Divider" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="354" Margin="280,55,0,0" VerticalAlignment="Top" Width="1"/>
+        <TextBlock x:Name="ColourManipulation_PointColouringTitle_Textblock" HorizontalAlignment="Left" Height="22" Margin="10,55,0,0" TextWrapping="Wrap" Text="Colour Points" VerticalAlignment="Top" Width="265" TextAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="ColourManipulationPoint_SecondMethod_Label" Content="Second Method:" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="110" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}"/>
+        <ComboBox x:Name="ColourManipulationPoint_SecondMethod_Combobox" HorizontalAlignment="Left" Margin="125,206,0,0" VerticalAlignment="Top" Width="150" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}" SelectionChanged="ColourManipulationPoint_SecondMethod_Combobox_SelectionChanged">
+            <ListBoxItem Content="Order Placed"/>
+            <ListBoxItem Content="By X Coordinate"/>
+            <ListBoxItem Content="By Y Coordinate"/>
+            <ListBoxItem Content="Random on Gradient"/>
+            <ListBoxItem Content="Completely Random"/>
+            <ListBoxItem Content="Constant Colour"/>
+            <ListBoxItem Content="By Size"/>
+            <ListBoxItem Content="None"/>
+        </ComboBox>
+        <Label x:Name="ColourManipulationPoint_FirstColourMethod2_Label" Content="First Colour:" HorizontalAlignment="Left" Margin="10,236,0,0" VerticalAlignment="Top" Width="110" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}"/>
+        <xctk:ColorPicker x:Name="ColourManipulationPoint_Colour1PickerMethod2" Margin="125,0,0,158" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationPoint_Colour1PickerMethod2_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Label x:Name="ColourManipulationPoint_SecondColourMethod2_Label" Content="Second Colour:" HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" Width="110" Height="25" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}"/>
+        <xctk:ColorPicker x:Name="ColourManipulationPoint_Colour2PickerMethod2" Margin="125,0,0,128" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" IsEnabled="{Binding IsChecked, ElementName=ColourManipulationPoint_PointsDifferent_Checkbox}" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationPoint_Colour2PickerMethod2_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Label x:Name="ColourManipulationBackground_FirstMethod_Label" Content="First Method:" HorizontalAlignment="Left" Margin="290,85,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <ComboBox x:Name="ColourManipulationBackground_FirstMethod_Combobox" HorizontalAlignment="Left" Margin="405,85,0,0" VerticalAlignment="Top" Width="150" Height="25" SelectionChanged="ColourManipulationBackground_FirstMethod_Combobox_SelectionChanged">
+            <ListBoxItem Content="By X Coordinate"/>
+            <ListBoxItem Content="By Y Coordinate"/>
+            <ListBoxItem Content="Constant Colour"/>
+        </ComboBox>
+        <Label x:Name="ColourManipulationBackground_FirstColourMethod1_Label" Content="First Colour:" HorizontalAlignment="Left" Margin="290,115,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationBackground_Colour1PickerMethod1" Margin="405,0,0,279" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationBackground_Colour1PickerMethod1_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Label x:Name="ColourManipulationBackground_SecondColourMethod1_Label" Content="Second Colour:" HorizontalAlignment="Left" Margin="290,145,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationBackground_Colour2PickerMethod1" Margin="405,0,0,249" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationBackground_Colour2PickerMethod1_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <TextBlock x:Name="ColourManipulation_BackgroundColouringTitle_Textblock" HorizontalAlignment="Left" Height="22" Margin="290,55,0,0" TextWrapping="Wrap" Text="Background Colour" VerticalAlignment="Top" Width="265" TextAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="ColourManipulationBackground_SecondMethod_Label" Content="Second Method:" HorizontalAlignment="Left" Margin="290,176,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <ComboBox x:Name="ColourManipulationBackground_SecondMethod_Combobox" HorizontalAlignment="Left" Margin="405,176,0,0" VerticalAlignment="Top" Width="150" Height="25" SelectionChanged="ColourManipulationBackground_SecondMethod_Combobox_SelectionChanged">
+            <ListBoxItem Content="By X Coordinate"/>
+            <ListBoxItem Content="By Y Coordinate"/>
+            <ListBoxItem Content="Constant Colour"/>
+            <ListBoxItem Content="None"/>
+        </ComboBox>
+        <Label x:Name="ColourManipulationBackground_FirstColourMethod2_Label" Content="First Colour:" HorizontalAlignment="Left" Margin="290,206,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationBackground_Colour1PickerMethod2" Margin="405,0,0,188" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationBackground_Colour1PickerMethod2_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Label x:Name="ColourManipulationBackground_SecondColourMethod2_Label" Content="Second Colour:" HorizontalAlignment="Left" Margin="290,236,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationBackground_Colour2PickerMethod2" Margin="405,0,0,158" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationBackground_Colour2PickerMethod2_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Border x:Name="ColourManipulation_Divider2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="354" Margin="563,55,0,0" VerticalAlignment="Top" Width="1"/>
+        <Label x:Name="ColourManipulationRegion_FirstMethod_Label" Content="First Method:" HorizontalAlignment="Left" Margin="573,85,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <ComboBox x:Name="ColourManipulationRegion_FirstMethod_Combobox" HorizontalAlignment="Left" Margin="688,85,0,0" VerticalAlignment="Top" Width="150" Height="25" SelectionChanged="ColourManipulationRegion_FirstMethod_Combobox_SelectionChanged">
+            <ListBoxItem Content="Order Placed"/>
+            <ListBoxItem Content="By X Coordinate"/>
+            <ListBoxItem Content="By Y Coordinate"/>
+            <ListBoxItem Content="Random on Gradient"/>
+            <ListBoxItem Content="Completely Random"/>
+            <ListBoxItem Content="Constant Colour"/>
+            <ListBoxItem Content="By Size"/>
+        </ComboBox>
+        <Label x:Name="ColourManipulationRegion_FirstColourMethod1_Label" Content="First Colour:" HorizontalAlignment="Left" Margin="573,115,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationRegion_Colour1PickerMethod1" Margin="688,0,0,279" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationRegion_Colour1PickerMethod1_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Label x:Name="ColourManipulationRegion_SecondColourMethod1_Label" Content="Second Colour:" HorizontalAlignment="Left" Margin="573,145,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationRegion_Colour2PickerMethod1" Margin="688,0,0,249" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationRegion_Colour2PickerMethod1_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <TextBlock x:Name="ColourManipulation_RegionColouringTitle_Textblock" HorizontalAlignment="Left" Height="22" Margin="573,55,0,0" TextWrapping="Wrap" Text="Regions Colour" VerticalAlignment="Top" Width="265" TextAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="ColourManipulationRegion_SecondMethod_Label" Content="Second Method:" HorizontalAlignment="Left" Margin="573,176,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <ComboBox x:Name="ColourManipulationRegion_SecondMethod_Combobox" HorizontalAlignment="Left" Margin="688,176,0,0" VerticalAlignment="Top" Width="150" Height="25" SelectionChanged="ColourManipulationRegion_SecondMethod_Combobox_SelectionChanged">
+            <ListBoxItem Content="Order Placed"/>
+            <ListBoxItem Content="By X Coordinate"/>
+            <ListBoxItem Content="By Y Coordinate"/>
+            <ListBoxItem Content="Random on Gradient"/>
+            <ListBoxItem Content="Completely Random"/>
+            <ListBoxItem Content="Constant Colour"/>
+            <ListBoxItem Content="By Size"/>
+            <ListBoxItem Content="None"/>
+        </ComboBox>
+        <Label x:Name="ColourManipulationRegion_FirstColourMethod2_Label" Content="First Colour:" HorizontalAlignment="Left" Margin="573,206,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationRegion_Colour1PickerMethod2" Margin="688,0,0,188" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationRegion_Colour1PickerMethod2_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+        <Label x:Name="ColourManipulationRegion_SecondColourMethod2_Label" Content="Second Colour:" HorizontalAlignment="Left" Margin="573,236,0,0" VerticalAlignment="Top" Width="110" Height="25"/>
+        <xctk:ColorPicker x:Name="ColourManipulationRegion_Colour2PickerMethod2" Margin="688,0,0,158" DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" HorizontalAlignment="Left" Width="150" Height="25" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" SelectedColorChanged="ColourManipulationRegion_Colour2PickerMethod2_SelectedColorChanged" >
+            <xctk:ColorPicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="10"/>
+                </TransformGroup>
+            </xctk:ColorPicker.RenderTransform>
+        </xctk:ColorPicker>
+    </Grid>
+</Window>
